@@ -13,7 +13,7 @@ body {
 /* NAVIGATION BAR */
 .navbar {
   display: flex;
-  width: 98%;
+  width: 100%;
   height: 100px;
   background-color: #10580b;
   align-items: center;
