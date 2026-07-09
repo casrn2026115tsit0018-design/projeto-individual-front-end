@@ -5,9 +5,11 @@
   
   
 }
-body{
-background-color: #c5e9d0;
+body {
+  background-color: #c5e9d0;
 }
+
+
 /* NAVIGATION BAR */
 .navbar {
   display: flex;
@@ -34,7 +36,7 @@ background-color: #c5e9d0;
 
 .navlinks {
   display: flex;
-  gap: min(5px,10px);
+  gap: min(5px, 10px);
   margin-right: 10%;
 }
 
@@ -44,7 +46,7 @@ background-color: #c5e9d0;
   font-weight: bold;
   padding: min(5px, 10px);
   height: min(30px, 60px);
-  width: min(60px,120px);
+  width: min(60px, 120px);
   border: solid 2px orange;
   border-radius: 5px;
   text-decoration: none;
@@ -62,43 +64,42 @@ background-color: #c5e9d0;
   transform: translateY(-3px);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
-  
 
-#cards {
-  display: grid;
-  margin-top: 120px;
+
+form {
+  display: flex;
+  flex-direction: column;
+  background-color: #40bf5a;
+  padding: 20px;
+  margin-top: 130px;
+  width: min(80% ,500px);
+  height: auto;
+  border-radius: 10px;
+  justify-self: center;
+}
+
+
+label {
+  color: white;
+  background-color: #39944d;
+  border: 2px orange solid;
+  border-radius: 5px;
+  text-align: center;
+  padding: 5px;
+}
+
+textarea {
+  width: min(90%, 440px);
+  height: min(200px, 900px);
   margin-left: 5%;
   margin-right: 5%;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: auto;
-  border-radius: 20px;
-  border: solid 2px black;
-  align-items: center;
-  justify-items: center;
-  gap: 20px;
-  padding: 5px;
+  margin-top: 5px;
+  background-color: #adeab8;
+}
+
+input {
+  width: 70%;
+  line-height: 2.0;
+  background-color: #adeab8;
   
-}
-
-#cards div img {
-  width: 100%;
-  height: 200px;
-  object-fit: cover;
-  border-top-right-radius: 20px;
-  border-top-left-radius: 20px;
-}
-
-#cards div {
-  width: 100%;
-  height: auto;
-  display: flex;
-  border-radius: 20px;
-  padding: 0;
-  border: solid 2px orange;
-  text-align: center;
-  align-content: center;
-  align-items: center;
-  flex-direction: column;
-  background-color: #389DE5;
-  color: white;
 }
