@@ -8,10 +8,12 @@
 body{
 background-color: #c5e9d0;
 }
+
+
 /* NAVIGATION BAR */
 .navbar {
   display: flex;
-  width: 98%;
+  width: 100%;
   height: 100px;
   background-color: #10580b;
   align-items: center;
@@ -63,10 +65,14 @@ background-color: #c5e9d0;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
   
-
+h1{
+  margin-top: 130px;
+  text-align: center;
+  color: #268040;
+}
 #cards {
   display: grid;
-  margin-top: 120px;
+  margin-top: 20px;
   margin-left: 5%;
   margin-right: 5%;
   grid-template-columns: repeat(2, 1fr);
