@@ -103,3 +103,11 @@ input {
   background-color: #adeab8;
   
 }
+
+button{
+  text-align: center;
+  height: 2.0;
+  width: 100px;
+  border-radius: 10px;
+  margin-left: 60%;
+}
