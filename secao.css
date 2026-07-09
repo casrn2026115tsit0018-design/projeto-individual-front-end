@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  margin-top: 0;
+
+}
+body{
+
+background-color: #c5e9d0;
+
+
+}
+.secao {
+  margin-top: 130px;
+  background-color: #36c977;
+  border: solid 2px black;
+  width: 80%;
+  height: auto;
+  padding: 30px;
+  justify-self: center;
+  border-radius: 5px;
+
+}
+
+
+.foto-perfil {
+  
+text-align: center;
+
+
+}
+
+
+
+.comentario {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+
+}
+
+.descri{
+  display: flex;
+  border: solid 2px black;
+  background-color: #f9c41c;
+  border-radius: 20px;
+  width: 250px;
+  height: 150px;
+  padding: 5px;
+  
+  gap: 10px;
+
+
+
+}
+
+.descri img{
+margin-top: 0;
+margin-left: 0;
+width: 80px;
+height: 70px;
+object-fit: cover;
+border-radius: 5px;
+border: solid 2px black;
+}
+
+
+.citacao {
+display: flex;
+flex-direction: column;
+ margin-left: auto;
+ margin-right: auto;
+ margin-top: 20px;
+  padding: 20px;
+  width: 90%;
+  height: auto;
+  background-color: #f32e56;
+  border: 2px solid black;
+  color: white;
+  border-radius: 10px;
+  align-items: center;
+}
+
+.citacao img{
+
+width: 80%;
+height: 200px;
+object-fit: cover;
+
+
+}
+
+
+
+
+
+.secao2{
+  margin-top: 130px;
+  background-color: #9f0cf3;
+  border: solid 2px black;
+  width: 80%;
+  height: auto;
+  padding: 30px;
+  justify-self: center;
+  border-radius: 5px;
+
+
+
+
+}
+
+
+.descri2{
+  display: flex;
+  border: solid 2px white;
+  background-color: #4ab649;
+  border-radius: 20px;
+  width: 250px;
+  height: 150px;
+  padding: 5px;
+  
+  gap: 10px;
+
+
+
+}
+
+.descri2 img{
+margin-top: 0;
+margin-left: 0;
+width: 80px;
+height: 70px;
+object-fit: cover;
+border-radius: 5px;
+border: solid 2px black;
+}
+
+
+.citacao2 {
+display: flex;
+flex-direction: column;
+ margin-left: auto;
+ margin-right: auto;
+ margin-top: 20px;
+  padding: 20px;
+  width: 90%;
+  height: auto;
+  background-color: white;
+  border: 2px solid black;
+  color: black;
+  border-radius: 10px;
+  align-items: center;
+}
+
+.citacao2 img{
+
+width: 80%;
+height: 200px;
+object-fit: cover;
+
+
+}
